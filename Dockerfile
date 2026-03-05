@@ -2,11 +2,11 @@ FROM node:latest
 
 WORKDIR /myapp
 
-COPY .. 
+COPY . . 
 
 RUN npm install 
 
-EXPOSE 5000
+EXPOSE 3000
 
 
 CMD ["npm","start"]
